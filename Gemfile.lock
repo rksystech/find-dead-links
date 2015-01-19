@@ -1,0 +1,41 @@
+PATH
+  remote: .
+  specs:
+    find_dead_link (0.0.1)
+      nokogiri (~> 1.6.1)
+      semantic_logger (~> 2.7.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    coderay (1.1.0)
+    ffi (1.9.3-java)
+    method_source (0.8.2)
+    mini_portile (0.5.3)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    pry (0.9.12.6-java)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+      spoon (~> 0.0)
+    semantic_logger (2.7.0)
+      sync_attr (>= 1.0)
+      thread_safe (>= 0.1.0)
+    slop (3.5.0)
+    spoon (0.0.4)
+      ffi
+    sync_attr (1.0.0)
+    thread_safe (0.3.3)
+
+PLATFORMS
+  java
+  ruby
+
+DEPENDENCIES
+  find_dead_link!
+  pry
